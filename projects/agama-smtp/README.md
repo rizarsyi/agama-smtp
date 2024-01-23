@@ -1,4 +1,3 @@
-
 # Agama SMTP Project
 
 Use this project to register and authenticate using the OTP send to the entered Email address.
@@ -40,4 +39,3 @@ Download the latest agama-smtp.gama file and deploy it in Auth Sever.
 2. Trigger the auth flow using `agama_flow=org.gluu.agama.smtp.main` as additional parameter and `acr_values=agama`
 
 ![agama-smtp](https://github.com/GluuFederation/agama-securitykey/assets/32794267/10c9a2fa-ddce-4d56-a50d-538ea4c66ed1)
-
