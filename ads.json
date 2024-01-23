@@ -1,1 +1,18 @@
-{}
+{
+    "agama-smtp": {
+        "projectName": "agama-smtp",
+        "description": "Authentication Technique that rely on sending email",
+        "type": "community",
+        "author": "duttarnab",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/duttarnab/agama-smtp",
+        "githubUri": "https://github.com/duttarnab/agama-smtp",
+        "license": "apache-2.0",
+        "lastUpdated": "1706031868364",
+        "tags": [
+            "smtp"
+        ],
+        "noDirectLaunch": [],
+        "configs": {}
+    }
+}
