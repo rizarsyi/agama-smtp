@@ -1,27 +1,28 @@
 {
-  "projectName": "agama-smtp",
-  "description": "Agama Project for Authn Techniques that rely on sending email",
-  "type": "community",
-  "author": "duttarnab",
-  "version": "0.0.1",
-  "authorWebsite": "https://github.com/duttarnab/agama-smtp",
-  "githubUri": "https://github.com/duttarnab/agama-smtp",
-  "license": "apache-2.0",
-  "lastUpdated": "1705823396407",
-  "tags": [
-    "smtp"
-  ],
-  "noDirectLaunch": [
-    "org.gluu.agama.smtp.registration",
-    "org.gluu.agama.smtp.main"
-  ],
-  "configs": {
-    "org.gluu.agama.smtp.main": {
-      "minCredsRequired": 2,
-      "captureLocation": true
+    "projectName": "agama-smtp",
+    "description": "Agama Project for Authn Techniques that rely on sending email",
+    "type": "community",
+    "author": "duttarnab",
+    "version": "0.0.1",
+    "authorWebsite": "https://github.com/duttarnab/agama-smtp",
+    "githubUri": "https://github.com/duttarnab/agama-smtp",
+    "license": "apache-2.0",
+    "lastUpdated": "1705823396407",
+    "tags": [
+        "smtp"
+    ],
+    "noDirectLaunch": [
+        "org.gluu.agama.smtp.registration",
+        "org.gluu.agama.smtp.main",
+        "org.gluu.agama.smtp.emailVerification"
+    ],
+    "configs": {
+        "org.gluu.agama.smtp.main": {
+            "minCredsRequired": 2,
+            "captureLocation": true
+        },
+        "org.gluu.agama.smtp.emailVerification": {},
+        "org.gluu.agama.smtp.registration": {}
     },
-    "org.gluu.agama.smtp.emailVerification": {},
-    "org.gluu.agama.smtp.registration": {}
-  },
-  "name": "agama-smtp"
+    "name": "agama-smtp"
 }
