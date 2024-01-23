@@ -41,8 +41,8 @@ When emailUnknown is true
                     // Assign User Id to a variable
                     uid = userData.uid
                     // Finish the flow successfully
-                    it_fulnz = {success:true, data: { userId: uid, uid: uid}}
-                    Finish it_fulnz
+                    it_qlhxq = {success:true, data: { userId: uid, uid: uid}}
+                    Finish it_qlhxq
      // The email verification is not successful
      Log "@info Email verification is not successful"
      // Email verification is unsuccessful
@@ -56,10 +56,10 @@ When obj.success is true
      // Assigning user id to a variable
      uid = userData.uid
      // Email verification and hence authentication is successful
-     it_plfvt = {success:true, data: { userId: uid, uid: uid}}
-     Finish it_plfvt
+     it_makee = {success:true, data: { userId: uid, uid: uid}}
+     Finish it_makee
 // Fail if credential enrollment or authenticator flow failed
 Log "@info Fail if credential enrollment or authenticator flow failed"
 // Credential enrollment or authenticator flow failed
-it_yzlbl = {success:false, error: "Credential enrollment or authenticator flow failed"}
-Finish it_yzlbl
+it_shbvh = {success:false, error: "Credential enrollment or authenticator flow failed"}
+Finish it_shbvh
