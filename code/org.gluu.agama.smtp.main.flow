@@ -4,62 +4,61 @@ Flow org.gluu.agama.smtp.main
      Timeout 360 seconds
      Configs conf
      Inputs emailHint
-// Create variable to receive email input
-obj = { email: emailHint, captureLocation: conf.captureLocation }
-// Retrieve user credentials from UI
-obj = RRF "main.ftlh" obj
+// Create and initialize variable to receive email input
+emailObj = { email: emailHint, captureLocation: conf.captureLocation }
+// Retrieve user email address from UI
+uiInput = RRF "main.ftlh" emailObj
 // Assign user email input to a variable
-email = obj.email
+email = uiInput.email
 // Create an instance Email Service
 emailService = Call org.gluu.agama.smtp.EmailService#getInstance 
 // Get User Details using Email Service
 userData = Call emailService getUserMapUsingEmail email
-// Logic to determine if user email is already registered
+// 1. Logic to determine if user email is already registered 2. Initialize location, timezone info from UI to user-data
 emailUnknown = userData.empty
-userData.context = { location: obj.location, timeZone: obj.zone, device: obj.device }
+userData.context = { location: uiInput.location, timeZone: uiInput.zone, device: uiInput.device }
 When emailUnknown is true
      // Trigger sub-routine to verify email
-     obj = Trigger org.gluu.agama.smtp.emailVerification email false userData.context
+     emailVerificationResult = Trigger org.gluu.agama.smtp.emailVerification email false userData.context
      // If email data is valid
-     When obj.success is true
+     When emailVerificationResult.success is true
           // E-mail verification passed, initiating user provisioning flow
           Log "@info E-mail verification passed, initiating user provisioning flow"
           // Create object to register user with email input
-          obj = { email: email }
+          emailObj = { email: email }
           // Run sub-routine to register user with email input
-          obj = Trigger org.gluu.agama.smtp.registration obj
+          registrationResult = Trigger org.gluu.agama.smtp.registration emailObj
           // When user registration is successful
-          When obj.success is true
+          When registrationResult.success is true
                // Assign registered user data to a object attributes
-               userData = obj.data
-               obj.user = userData.name
-               obj.email = email
+               userData = registrationResult.data
+               userData.email = email
                // Show acknowledgement UI page for successful registration
-               obj = RRF "acknowledgement.ftlh" obj
+               acknowledgementInput = RRF "acknowledgement.ftlh" userData
                // User clicks in continue button
-               When obj.ack is "continue"
-                    // Assign User Id to a variable
+               When acknowledgementInput.ack is "continue"
+                    // Assign User Id (email) to a variable
                     uid = userData.uid
                     // Finish the flow successfully
-                    it_qlhxq = {success:true, data: { userId: uid, uid: uid}}
-                    Finish it_qlhxq
+                    it_desvk = {success:true, data: { userId: uid, uid: uid}}
+                    Finish it_desvk
      // The email verification is not successful
      Log "@info Email verification is not successful"
      // Email verification is unsuccessful
-     Finish obj
+     Finish emailVerificationResult
 // User with same email already exists
 Log "@info User with e-mail % is known" email
 // Run email verification sub-routine
-obj = Trigger org.gluu.agama.smtp.emailVerification email true userData.context
+emailVerificationResult = Trigger org.gluu.agama.smtp.emailVerification email true userData.context
 // When email verification is successful
-When obj.success is true
-     // Assigning user id to a variable
+When emailVerificationResult.success is true
+     // Assigning user id (email) to a variable
      uid = userData.uid
      // Email verification and hence authentication is successful
-     it_makee = {success:true, data: { userId: uid, uid: uid}}
-     Finish it_makee
+     it_owkaw = {success:true, data: { userId: uid, uid: uid}}
+     Finish it_owkaw
 // Fail if credential enrollment or authenticator flow failed
 Log "@info Fail if credential enrollment or authenticator flow failed"
 // Credential enrollment or authenticator flow failed
-it_shbvh = {success:false, error: "Credential enrollment or authenticator flow failed"}
-Finish it_shbvh
+it_hgtsu = {success:false, error: "Credential enrollment or authenticator flow failed"}
+Finish it_hgtsu
