@@ -1,6 +1,344 @@
 {
 	"nodes": [
 		{
+			"width": 270,
+			"height": 81,
+			"id": "Agama-note-ecf2fe6f-765d-4d6a-b6a2-3e91b59630fc",
+			"position": {
+				"x": 3054.57865528289,
+				"y": 823.0108923035444
+			},
+			"type": "notes",
+			"data": {
+				"id": "Agama-note-ecf2fe6f-765d-4d6a-b6a2-3e91b59630fc",
+				"type": "Agama-note",
+				"notes": "Show UI with successful user registration message. If the user clicks on continue button then finish the registration flow successfully.",
+				"position": {
+					"x": 3054.57865528289,
+					"y": 823.0108923035444
+				},
+				"skake": false
+			},
+			"selected": true,
+			"positionAbsolute": {
+				"x": 3054.57865528289,
+				"y": 823.0108923035444
+			},
+			"dragging": false
+		},
+		{
+			"width": 270,
+			"height": 42,
+			"id": "Agama-note-f4af61a8-27c5-4569-b47c-ba193d77fc2c",
+			"position": {
+				"x": 2430.8354485195,
+				"y": 807.9291153335856
+			},
+			"type": "notes",
+			"data": {
+				"id": "Agama-note-f4af61a8-27c5-4569-b47c-ba193d77fc2c",
+				"type": "Agama-note",
+				"notes": "New User registration is successful.",
+				"position": {
+					"x": 2430.8354485195,
+					"y": 807.9291153335856
+				},
+				"skake": false
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": 2430.8354485195,
+				"y": 807.9291153335856
+			},
+			"dragging": false
+		},
+		{
+			"width": 270,
+			"height": 55,
+			"id": "Agama-note-9000bb4c-512e-4530-ad7e-ea1aa13ddd66",
+			"position": {
+				"x": 2078.1850535354097,
+				"y": 508.11884467935954
+			},
+			"type": "notes",
+			"data": {
+				"id": "Agama-note-9000bb4c-512e-4530-ad7e-ea1aa13ddd66",
+				"type": "Agama-note",
+				"notes": "Email OTP verification is successful. Call sub-routine to register new user. ",
+				"position": {
+					"x": 2078.1850535354097,
+					"y": 508.11884467935954
+				},
+				"skake": false
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": 2078.1850535354097,
+				"y": 508.11884467935954
+			},
+			"dragging": false
+		},
+		{
+			"width": 270,
+			"height": 55,
+			"id": "Agama-note-4888adb9-94c1-4e6e-9e6e-e8c82902c87a",
+			"position": {
+				"x": 2239.0028232349955,
+				"y": 325.47580623483094
+			},
+			"type": "notes",
+			"data": {
+				"id": "Agama-note-4888adb9-94c1-4e6e-9e6e-e8c82902c87a",
+				"type": "Agama-note",
+				"notes": "Email OTP verification failed. Authentication is unsuccessful. Finish the flow.",
+				"position": {
+					"x": 2239.0028232349955,
+					"y": 325.47580623483094
+				},
+				"skake": false
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": 2239.0028232349955,
+				"y": 325.47580623483094
+			},
+			"dragging": false
+		},
+		{
+			"width": 270,
+			"height": 94,
+			"id": "Agama-note-24df480b-c97a-4611-b4ce-d54d068c13d3",
+			"position": {
+				"x": 1443,
+				"y": 447
+			},
+			"type": "notes",
+			"data": {
+				"id": "Agama-note-24df480b-c97a-4611-b4ce-d54d068c13d3",
+				"type": "Agama-note",
+				"notes": "Call sub-routine which sends OTP to the email address and allows user to enter the same OTP on UI. If OTP matches the email verification is successful.",
+				"position": {
+					"x": 1443,
+					"y": 447
+				},
+				"skake": false
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": 1443,
+				"y": 447
+			},
+			"dragging": false
+		},
+		{
+			"width": 270,
+			"height": 55,
+			"id": "Agama-note-4460ad57-8273-4683-8b86-a51a9ffbba35",
+			"position": {
+				"x": 2391,
+				"y": -291
+			},
+			"type": "notes",
+			"data": {
+				"id": "Agama-note-4460ad57-8273-4683-8b86-a51a9ffbba35",
+				"type": "Agama-note",
+				"notes": "Email OTP verification failed. Authentication is unsuccessful. Finish the flow.",
+				"position": {
+					"x": 2391,
+					"y": -291
+				},
+				"skake": false
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": 2391,
+				"y": -291
+			},
+			"dragging": false
+		},
+		{
+			"width": 270,
+			"height": 55,
+			"id": "Agama-note-59c69197-43ef-487e-be24-25c0a288f415",
+			"position": {
+				"x": 2255,
+				"y": 54
+			},
+			"type": "notes",
+			"data": {
+				"id": "Agama-note-59c69197-43ef-487e-be24-25c0a288f415",
+				"type": "Agama-note",
+				"notes": "Email OTP verification successful. Authentication is successful. Finish the flow.",
+				"position": {
+					"x": 2255,
+					"y": 54
+				},
+				"skake": false
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": 2255,
+				"y": 54
+			},
+			"dragging": false
+		},
+		{
+			"width": 270,
+			"height": 94,
+			"id": "Agama-note-05287edd-b2fb-44ab-9a44-84a2b24299a8",
+			"position": {
+				"x": 1815,
+				"y": -322
+			},
+			"type": "notes",
+			"data": {
+				"id": "Agama-note-05287edd-b2fb-44ab-9a44-84a2b24299a8",
+				"type": "Agama-note",
+				"notes": "Call sub-routine which sends OTP to the email address and allows user to enter the same OTP on UI. If OTP matches the email verification is successful.",
+				"position": {
+					"x": 1815,
+					"y": -322
+				},
+				"skake": false
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": 1815,
+				"y": -322
+			},
+			"dragging": false
+		},
+		{
+			"width": 270,
+			"height": 55,
+			"id": "Agama-note-f2206bdf-edfa-4370-9e17-f8a78d1e0bfe",
+			"position": {
+				"x": 1513,
+				"y": -29
+			},
+			"type": "notes",
+			"data": {
+				"id": "Agama-note-f2206bdf-edfa-4370-9e17-f8a78d1e0bfe",
+				"type": "Agama-note",
+				"notes": "User with entered email address is not registered on authentication server. ",
+				"position": {
+					"x": 1513,
+					"y": -29
+				},
+				"skake": false
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": 1513,
+				"y": -29
+			},
+			"dragging": false
+		},
+		{
+			"width": 270,
+			"height": 55,
+			"id": "Agama-note-1b6bff57-8181-415a-a512-57cfa54b9c43",
+			"position": {
+				"x": 1254,
+				"y": 229
+			},
+			"type": "notes",
+			"data": {
+				"id": "Agama-note-1b6bff57-8181-415a-a512-57cfa54b9c43",
+				"type": "Agama-note",
+				"notes": "User with entered email address already registered on authentication server. ",
+				"position": {
+					"x": 1254,
+					"y": 229
+				},
+				"skake": false
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": 1254,
+				"y": 229
+			},
+			"dragging": false
+		},
+		{
+			"width": 270,
+			"height": 68,
+			"id": "Agama-note-450f1b80-9e04-4e03-b4b2-672fc395aaba",
+			"position": {
+				"x": 975,
+				"y": -103
+			},
+			"type": "notes",
+			"data": {
+				"id": "Agama-note-450f1b80-9e04-4e03-b4b2-672fc395aaba",
+				"type": "Agama-note",
+				"notes": "Email service will will try to fetch user details from authentication server using the entered email address.",
+				"position": {
+					"x": 975,
+					"y": -103
+				},
+				"skake": false
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": 975,
+				"y": -103
+			},
+			"dragging": false
+		},
+		{
+			"width": 270,
+			"height": 42,
+			"id": "Agama-note-9b67b98d-875a-49d7-ad75-a3349c7252ab",
+			"position": {
+				"x": 398,
+				"y": -100
+			},
+			"type": "notes",
+			"data": {
+				"id": "Agama-note-9b67b98d-875a-49d7-ad75-a3349c7252ab",
+				"type": "Agama-note",
+				"notes": "Retrieving email address entered by user on UI. ",
+				"position": {
+					"x": 398,
+					"y": -100
+				},
+				"skake": false
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": 398,
+				"y": -100
+			},
+			"dragging": false
+		},
+		{
+			"width": 270,
+			"height": 42,
+			"id": "Agama-note-a700c8a0-5dc0-47e3-99d4-8c4ff2f73ebd",
+			"position": {
+				"x": -7,
+				"y": -101
+			},
+			"type": "notes",
+			"data": {
+				"id": "Agama-note-a700c8a0-5dc0-47e3-99d4-8c4ff2f73ebd",
+				"type": "Agama-note",
+				"notes": "The email authentication flow starts from here.",
+				"position": {
+					"x": -7,
+					"y": -101
+				},
+				"skake": false
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": -7,
+				"y": -101
+			},
+			"dragging": false
+		},
+		{
 			"width": 170,
 			"height": 124,
 			"id": "finish-6afb4cd4-1b93-41d9-8777-c4716d568bed",
@@ -29,7 +367,7 @@
 					"hasComment": true,
 					"comment": "Email verification is unsuccessful",
 					"flowfilename": "",
-					"returnVariable": "obj",
+					"returnVariable": "emailVerificationResult",
 					"finishMode": "withVariable",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
 				},
@@ -47,8 +385,8 @@
 			"height": 124,
 			"id": "finish-abbe7fa4-7c2b-456c-8c76-9181bf973f8e",
 			"position": {
-				"x": 2531,
-				"y": 30
+				"x": 2586,
+				"y": -178
 			},
 			"type": "finish",
 			"data": {
@@ -59,8 +397,8 @@
 				"inRepeatBlock": false,
 				"handles": [],
 				"position": {
-					"x": 2531,
-					"y": 30
+					"x": 2586,
+					"y": -178
 				},
 				"agamaData": {
 					"id": "finish-abbe7fa4-7c2b-456c-8c76-9181bf973f8e",
@@ -80,8 +418,8 @@
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 2531,
-				"y": 30
+				"x": 2586,
+				"y": -178
 			}
 		},
 		{
@@ -89,8 +427,8 @@
 			"height": 124,
 			"id": "Agama-log-Node-1475f784-2410-468a-9644-37023510b2f3",
 			"position": {
-				"x": 2331,
-				"y": 30
+				"x": 2352,
+				"y": -178
 			},
 			"type": "log",
 			"data": {
@@ -100,8 +438,8 @@
 				"whenCondition": "WhenFalse",
 				"inRepeatBlock": false,
 				"position": {
-					"x": 2331,
-					"y": 30
+					"x": 2352,
+					"y": -178
 				},
 				"agamaData": {
 					"id": "Agama-log-Node-1475f784-2410-468a-9644-37023510b2f3",
@@ -121,8 +459,8 @@
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 2331,
-				"y": 30
+				"x": 2352,
+				"y": -178
 			}
 		},
 		{
@@ -130,8 +468,8 @@
 			"height": 124,
 			"id": "finish-ef86cfc4-09e6-4f66-86bf-25acdaedd700",
 			"position": {
-				"x": 2396,
-				"y": 234
+				"x": 2406,
+				"y": 147
 			},
 			"type": "finish",
 			"data": {
@@ -142,8 +480,8 @@
 				"inRepeatBlock": false,
 				"handles": [],
 				"position": {
-					"x": 2396,
-					"y": 234
+					"x": 2406,
+					"y": 147
 				},
 				"agamaData": {
 					"id": "finish-ef86cfc4-09e6-4f66-86bf-25acdaedd700",
@@ -163,8 +501,8 @@
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 2396,
-				"y": 234
+				"x": 2406,
+				"y": 147
 			}
 		},
 		{
@@ -172,8 +510,8 @@
 			"height": 124,
 			"id": "Agama-assignment-Node-d5f2b9df-18d7-4f38-ab7d-cbb16bd05723",
 			"position": {
-				"x": 2195,
-				"y": 234
+				"x": 2191,
+				"y": 147
 			},
 			"type": "assignment",
 			"data": {
@@ -183,8 +521,8 @@
 				"whenCondition": "WhenTrue",
 				"inRepeatBlock": false,
 				"position": {
-					"x": 2195,
-					"y": 234
+					"x": 2191,
+					"y": 147
 				},
 				"agamaData": {
 					"id": "Agama-assignment-Node-d5f2b9df-18d7-4f38-ab7d-cbb16bd05723",
@@ -192,7 +530,7 @@
 					"type": "Agama-assignment-Node",
 					"displayName": "",
 					"hasComment": true,
-					"comment": "Assigning user id to a variable",
+					"comment": "Assigning user id (email) to a variable",
 					"whenCondition": "WhenTrue",
 					"inRepeatBlock": false,
 					"assignments": [
@@ -208,8 +546,8 @@
 			},
 			"selected": false,
 			"positionAbsolute": {
-				"x": 2195,
-				"y": 234
+				"x": 2191,
+				"y": 147
 			},
 			"dragging": false
 		},
@@ -218,8 +556,8 @@
 			"height": 140,
 			"id": "Agama-when-Node-ce35c4ba-e067-4247-9a3d-ba685765cb1a",
 			"position": {
-				"x": 2081,
-				"y": 84
+				"x": 2079,
+				"y": -122
 			},
 			"parentId": "Agama-trigger-Node-3a16a396-2d98-4eba-8fc0-eb59af02c7d1",
 			"type": "when",
@@ -230,14 +568,14 @@
 				"whenCondition": "",
 				"inRepeatBlock": false,
 				"position": {
-					"x": 2081,
-					"y": 84
+					"x": 2079,
+					"y": -122
 				},
 				"agamaData": {
 					"id": "Agama-when-Node-ce35c4ba-e067-4247-9a3d-ba685765cb1a",
 					"parentId": "Agama-trigger-Node-3a16a396-2d98-4eba-8fc0-eb59af02c7d1",
 					"type": "Agama-when-Node",
-					"variableField": "obj.success",
+					"variableField": "emailVerificationResult.success",
 					"conditionInputField": "is",
 					"valueField": "true",
 					"comment": "When email verification is successful",
@@ -257,8 +595,8 @@
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 2081,
-				"y": 84
+				"x": 2079,
+				"y": -122
 			}
 		},
 		{
@@ -267,7 +605,7 @@
 			"id": "Agama-trigger-Node-3a16a396-2d98-4eba-8fc0-eb59af02c7d1",
 			"position": {
 				"x": 1881,
-				"y": 30
+				"y": -177
 			},
 			"type": "trigger",
 			"data": {
@@ -278,7 +616,7 @@
 				"inRepeatBlock": false,
 				"position": {
 					"x": 1881,
-					"y": 30
+					"y": -177
 				},
 				"agamaData": {
 					"id": "Agama-trigger-Node-3a16a396-2d98-4eba-8fc0-eb59af02c7d1",
@@ -291,8 +629,12 @@
 					"inRepeatBlock": false,
 					"nodeIcon": "fluent-mdl2:trigger-approval",
 					"flowFileName": "org.gluu.agama.smtp.emailVerification",
-					"arguments": "email true userData.context",
-					"asssignedVariableName": "obj",
+					"arguments": [
+						"email",
+						"true",
+						"userData.context"
+					],
+					"asssignedVariableName": "emailVerificationResult",
 					"exceptionVariableField": ""
 				},
 				"skake": false
@@ -301,7 +643,7 @@
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1881,
-				"y": 30
+				"y": -177
 			}
 		},
 		{
@@ -309,8 +651,8 @@
 			"height": 124,
 			"id": "Agama-log-Node-0bca696a-a0a6-4c3a-9664-8d7bf9100a44",
 			"position": {
-				"x": 1681,
-				"y": 30
+				"x": 1647,
+				"y": -178
 			},
 			"type": "log",
 			"data": {
@@ -320,8 +662,8 @@
 				"whenCondition": "WhenFalse",
 				"inRepeatBlock": false,
 				"position": {
-					"x": 1681,
-					"y": 30
+					"x": 1647,
+					"y": -178
 				},
 				"agamaData": {
 					"id": "Agama-log-Node-0bca696a-a0a6-4c3a-9664-8d7bf9100a44",
@@ -341,8 +683,8 @@
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 1681,
-				"y": 30
+				"x": 1647,
+				"y": -178
 			}
 		},
 		{
@@ -453,7 +795,7 @@
 					"type": "Agama-assignment-Node",
 					"displayName": "",
 					"hasComment": true,
-					"comment": "Assign User Id to a variable",
+					"comment": "Assign User Id (email) to a variable",
 					"whenCondition": "WhenTrue",
 					"inRepeatBlock": false,
 					"assignments": [
@@ -498,7 +840,7 @@
 					"id": "Agama-when-Node-a432eb10-da16-4d7e-8624-3c0aaace647b",
 					"parentId": "Agama-rrf-Node-d7e21b2c-d192-4773-bdda-08962c9bf58f",
 					"type": "Agama-when-Node",
-					"variableField": "obj.ack",
+					"variableField": "acknowledgementInput.ack",
 					"conditionInputField": "is",
 					"valueField": "\"continue\"",
 					"comment": "User clicks in continue button",
@@ -553,8 +895,8 @@
 					"assignments": [],
 					"nodeIcon": "ph:globe-simple",
 					"templatePath": "acknowledgement.ftlh",
-					"asssignedVariableName": "obj",
-					"arguments": "obj"
+					"asssignedVariableName": "acknowledgementInput",
+					"arguments": "userData"
 				},
 				"skake": false
 			},
@@ -596,18 +938,13 @@
 					"assignments": [
 						{
 							"variableTypeCheck": false,
-							"assignmentExpression": "obj.data",
+							"assignmentExpression": "registrationResult.data",
 							"assignedVariableName": "userData"
 						},
 						{
 							"variableTypeCheck": false,
-							"assignmentExpression": "userData.name",
-							"assignedVariableName": "obj.user"
-						},
-						{
-							"variableTypeCheck": false,
 							"assignmentExpression": "email",
-							"assignedVariableName": "obj.email"
+							"assignedVariableName": "userData.email"
 						}
 					],
 					"nodeIcon": "material-symbols:equal"
@@ -645,7 +982,7 @@
 					"id": "Agama-when-Node-ff3fa227-981d-493a-a17d-e859608a4bd0",
 					"parentId": "Agama-trigger-Node-eb0118b1-a540-4413-8b5e-459f11b1c750",
 					"type": "Agama-when-Node",
-					"variableField": "obj.success",
+					"variableField": "registrationResult.success",
 					"conditionInputField": "is",
 					"valueField": "true",
 					"comment": "When user registration is successful",
@@ -696,8 +1033,10 @@
 					"inRepeatBlock": false,
 					"nodeIcon": "fluent-mdl2:trigger-approval",
 					"flowFileName": "org.gluu.agama.smtp.registration",
-					"arguments": "obj",
-					"asssignedVariableName": "obj",
+					"arguments": [
+						"emailObj"
+					],
+					"asssignedVariableName": "registrationResult",
 					"exceptionVariableField": ""
 				},
 				"skake": false
@@ -741,7 +1080,7 @@
 						{
 							"variableTypeCheck": false,
 							"assignmentExpression": "{ email: email }",
-							"assignedVariableName": "obj"
+							"assignedVariableName": "emailObj"
 						}
 					],
 					"nodeIcon": "material-symbols:equal"
@@ -820,7 +1159,7 @@
 					"id": "Agama-when-Node-668c75bc-6de9-47a2-9a50-173709df9f96",
 					"parentId": "Agama-trigger-Node-26b8ffdf-d980-4cfa-9885-5bd402095913",
 					"type": "Agama-when-Node",
-					"variableField": "obj.success",
+					"variableField": "emailVerificationResult.success",
 					"conditionInputField": "is",
 					"valueField": "true",
 					"comment": "If email data is valid",
@@ -872,8 +1211,12 @@
 					"inRepeatBlock": false,
 					"nodeIcon": "fluent-mdl2:trigger-approval",
 					"flowFileName": "org.gluu.agama.smtp.emailVerification",
-					"arguments": "email false userData.context",
-					"asssignedVariableName": "obj",
+					"arguments": [
+						"email",
+						"false",
+						"userData.context"
+					],
+					"asssignedVariableName": "emailVerificationResult",
 					"exceptionVariableField": ""
 				},
 				"skake": false
@@ -955,7 +1298,7 @@
 					"type": "Agama-assignment-Node",
 					"displayName": "",
 					"hasComment": true,
-					"comment": "Logic to determine if user email is already registered",
+					"comment": "1. Logic to determine if user email is already registered\n2. Initialize location, timezone info from UI to user-data",
 					"whenCondition": "",
 					"inRepeatBlock": false,
 					"assignments": [
@@ -966,7 +1309,7 @@
 						},
 						{
 							"variableTypeCheck": false,
-							"assignmentExpression": "{ location: obj.location, timeZone: obj.zone, device: obj.device }",
+							"assignmentExpression": "{ location: uiInput.location, timeZone: uiInput.zone, device: uiInput.device }",
 							"assignedVariableName": "userData.context"
 						}
 					],
@@ -1014,7 +1357,9 @@
 					"callType": "Call method on instance",
 					"whenCondition": "",
 					"inRepeatBlock": false,
-					"arguments": "email",
+					"arguments": [
+						"email"
+					],
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "userData"
 				},
@@ -1060,7 +1405,9 @@
 					"callType": "Call static method",
 					"whenCondition": "",
 					"inRepeatBlock": false,
-					"arguments": "",
+					"arguments": [
+						""
+					],
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "emailService"
 				},
@@ -1104,7 +1451,7 @@
 					"assignments": [
 						{
 							"variableTypeCheck": false,
-							"assignmentExpression": "obj.email",
+							"assignmentExpression": "uiInput.email",
 							"assignedVariableName": "email"
 						}
 					],
@@ -1144,14 +1491,14 @@
 					"type": "Agama-rrf-Node",
 					"displayName": "",
 					"hasComment": true,
-					"comment": "Retrieve user credentials from UI",
+					"comment": "Retrieve user email address from UI",
 					"whenCondition": "",
 					"inRepeatBlock": false,
 					"assignments": [],
 					"nodeIcon": "ph:globe-simple",
 					"templatePath": "main.ftlh",
-					"asssignedVariableName": "obj",
-					"arguments": "obj"
+					"asssignedVariableName": "uiInput",
+					"arguments": "emailObj"
 				},
 				"skake": false
 			},
@@ -1187,14 +1534,14 @@
 					"type": "Agama-assignment-Node",
 					"displayName": "",
 					"hasComment": true,
-					"comment": "Create variable to receive email input",
+					"comment": "Create and initialize variable to receive email input",
 					"whenCondition": "",
 					"inRepeatBlock": false,
 					"assignments": [
 						{
 							"variableTypeCheck": false,
 							"assignmentExpression": "{ email: emailHint, captureLocation: conf.captureLocation }",
-							"assignedVariableName": "obj"
+							"assignedVariableName": "emailObj"
 						}
 					],
 					"nodeIcon": "material-symbols:equal"
@@ -1738,8 +2085,8 @@
 		}
 	],
 	"viewport": {
-		"x": 60,
-		"y": 478,
+		"x": -1278,
+		"y": 430,
 		"zoom": 1
 	}
 }
