@@ -1,6 +1,186 @@
 {
 	"nodes": [
 		{
+			"width": 270,
+			"height": 94,
+			"id": "Agama-note-00e459cd-df7a-4b7b-826a-9f333c8f6169",
+			"position": {
+				"x": 2384.5375,
+				"y": 249
+			},
+			"type": "notes",
+			"data": {
+				"id": "Agama-note-00e459cd-df7a-4b7b-826a-9f333c8f6169",
+				"type": "Agama-note",
+				"notes": "When user entered OTP does not matches with the OTP sent to the email then start the loop again (if maximum tries count is not reached) to allow user to enter OTP again.",
+				"position": {
+					"x": 2384.5375,
+					"y": 249
+				}
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": 2384.5375,
+				"y": 249
+			},
+			"dragging": false
+		},
+		{
+			"width": 270,
+			"height": 68,
+			"id": "Agama-note-6fe18f50-6dd4-45db-a707-e81e1e8ecff0",
+			"position": {
+				"x": 2260,
+				"y": 600
+			},
+			"type": "notes",
+			"data": {
+				"id": "Agama-note-6fe18f50-6dd4-45db-a707-e81e1e8ecff0",
+				"type": "Agama-note",
+				"notes": "When user entered OTP matches with the OTP sent to the email then finish the flow successfully.",
+				"position": {
+					"x": 2260,
+					"y": 600
+				}
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": 2260,
+				"y": 600
+			},
+			"dragging": false
+		},
+		{
+			"width": 270,
+			"height": 107,
+			"id": "Agama-note-a762485a-51c6-4483-a4d5-5c03615702b2",
+			"position": {
+				"x": 1877,
+				"y": 591
+			},
+			"type": "notes",
+			"data": {
+				"id": "Agama-note-a762485a-51c6-4483-a4d5-5c03615702b2",
+				"type": "Agama-note",
+				"notes": "When user clicks on OTP resend link then set the variables to so that email-service can generate OTP and send email. This action will start the loop again (if maximum tries count is not reached).",
+				"position": {
+					"x": 1877,
+					"y": 591
+				},
+				"skake": false
+			},
+			"selected": true,
+			"positionAbsolute": {
+				"x": 1877,
+				"y": 591
+			},
+			"dragging": false
+		},
+		{
+			"width": 270,
+			"height": 55,
+			"id": "Agama-note-8443f7fd-420b-4ee5-a288-2704b9540694",
+			"position": {
+				"x": 1537,
+				"y": 340
+			},
+			"type": "notes",
+			"data": {
+				"id": "Agama-note-8443f7fd-420b-4ee5-a288-2704b9540694",
+				"type": "Agama-note",
+				"notes": "When email delivery is successful then ask user to enter OTP passcode on UI.",
+				"position": {
+					"x": 1537,
+					"y": 340
+				},
+				"skake": false
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": 1537,
+				"y": 340
+			},
+			"dragging": false
+		},
+		{
+			"width": 270,
+			"height": 55,
+			"id": "Agama-note-c82f6ff7-1d6d-4d72-8d3e-720f11e08a62",
+			"position": {
+				"x": 1410,
+				"y": 642
+			},
+			"type": "notes",
+			"data": {
+				"id": "Agama-note-c82f6ff7-1d6d-4d72-8d3e-720f11e08a62",
+				"type": "Agama-note",
+				"notes": "When email delivery is unsuccessful then finish the flow unsuccessfully.",
+				"position": {
+					"x": 1410,
+					"y": 642
+				},
+				"skake": false
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": 1410,
+				"y": 642
+			},
+			"dragging": false
+		},
+		{
+			"width": 270,
+			"height": 68,
+			"id": "Agama-note-6613be5a-b514-458c-ad60-4864b34f468a",
+			"position": {
+				"x": 914,
+				"y": 331
+			},
+			"type": "notes",
+			"data": {
+				"id": "Agama-note-6613be5a-b514-458c-ad60-4864b34f468a",
+				"type": "Agama-note",
+				"notes": "When email is allowed to sent, then call email-service to generate an OTP passcode and send to the email address.",
+				"position": {
+					"x": 914,
+					"y": 331
+				},
+				"skake": false
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": 914,
+				"y": 331
+			},
+			"dragging": false
+		},
+		{
+			"width": 270,
+			"height": 55,
+			"id": "Agama-note-478e6de2-588a-4a26-a0f7-6f686ede2d13",
+			"position": {
+				"x": 180,
+				"y": -87
+			},
+			"type": "notes",
+			"data": {
+				"id": "Agama-note-478e6de2-588a-4a26-a0f7-6f686ede2d13",
+				"type": "Agama-note",
+				"notes": "Start sub-flow to verify the possession of email address by sending random OTP.",
+				"position": {
+					"x": 180,
+					"y": -87
+				},
+				"skake": false
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": 180,
+				"y": -87
+			},
+			"dragging": false
+		},
+		{
 			"width": 170,
 			"height": 124,
 			"id": "finish-1bf6fffd-7c5f-4824-b7e0-93d5a5f0e432",
@@ -113,19 +293,19 @@
 					"type": "Agama-assignment-Node",
 					"displayName": "",
 					"hasComment": true,
-					"comment": "Variable assigned when OPT entered by user does not matches",
+					"comment": "Variable assigned when OTP entered by user does not matches",
 					"whenCondition": "WhenFalse",
 					"inRepeatBlock": true,
 					"assignments": [
 						{
 							"variableTypeCheck": false,
 							"assignmentExpression": "false",
-							"assignedVariableName": "obj.matches"
+							"assignedVariableName": "uiInput.matches"
 						},
 						{
 							"variableTypeCheck": false,
 							"assignmentExpression": "false",
-							"assignedVariableName": "obj.resent"
+							"assignedVariableName": "uiInput.resent"
 						}
 					],
 					"nodeIcon": "material-symbols:equal"
@@ -144,8 +324,8 @@
 			"height": 124,
 			"id": "finish-79eca692-8dbd-41ce-a6c3-ad2f3f73cf9d",
 			"position": {
-				"x": 2255,
-				"y": 668
+				"x": 2260,
+				"y": 773
 			},
 			"type": "finish",
 			"data": {
@@ -159,8 +339,8 @@
 					"Agama-when-Node-15f282e9-c33a-4ff3-81ee-0342c22af6fd.SUCCESS"
 				],
 				"position": {
-					"x": 2255,
-					"y": 668
+					"x": 2260,
+					"y": 773
 				},
 				"agamaData": {
 					"id": "finish-79eca692-8dbd-41ce-a6c3-ad2f3f73cf9d",
@@ -180,8 +360,8 @@
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 2255,
-				"y": 668
+				"x": 2260,
+				"y": 773
 			}
 		},
 		{
@@ -208,7 +388,7 @@
 					"id": "Agama-when-Node-15f282e9-c33a-4ff3-81ee-0342c22af6fd",
 					"parentId": "Agama-when-Node-c6c0165d-f2d3-4a32-be62-59a35d309eaa",
 					"type": "Agama-when-Node",
-					"variableField": "obj.passcode",
+					"variableField": "uiInput.passcode",
 					"conditionInputField": "is",
 					"valueField": "otpCode",
 					"comment": "When passcode entered by user matches",
@@ -235,7 +415,7 @@
 			"id": "Agama-assignment-Node-a1d8727e-17e1-4d1c-a019-0de6f3123e79",
 			"position": {
 				"x": 2005,
-				"y": 668
+				"y": 781
 			},
 			"type": "assignment",
 			"data": {
@@ -246,7 +426,7 @@
 				"inRepeatBlock": true,
 				"position": {
 					"x": 2005,
-					"y": 668
+					"y": 781
 				},
 				"agamaData": {
 					"id": "Agama-assignment-Node-a1d8727e-17e1-4d1c-a019-0de6f3123e79",
@@ -266,7 +446,7 @@
 						{
 							"variableTypeCheck": false,
 							"assignmentExpression": "true",
-							"assignedVariableName": "obj.resent"
+							"assignedVariableName": "uiInput.resent"
 						}
 					],
 					"nodeIcon": "material-symbols:equal"
@@ -277,7 +457,7 @@
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 2005,
-				"y": 668
+				"y": 781
 			}
 		},
 		{
@@ -304,7 +484,7 @@
 					"id": "Agama-when-Node-c6c0165d-f2d3-4a32-be62-59a35d309eaa",
 					"parentId": "Agama-rrf-Node-2af7afda-3da6-48ed-9183-d887ec00e394",
 					"type": "Agama-when-Node",
-					"variableField": "obj.resend",
+					"variableField": "uiInput.resend",
 					"conditionInputField": "is",
 					"valueField": "\"\"",
 					"comment": "If user clicked on \"resend code\" button",
@@ -357,8 +537,8 @@
 					"assignments": [],
 					"nodeIcon": "ph:globe-simple",
 					"templatePath": "otp.ftlh",
-					"asssignedVariableName": "obj",
-					"arguments": "obj"
+					"asssignedVariableName": "uiInput",
+					"arguments": "emailObj"
 				},
 				"skake": false
 			},
@@ -401,12 +581,12 @@
 						{
 							"variableTypeCheck": false,
 							"assignmentExpression": "email",
-							"assignedVariableName": "obj.email"
+							"assignedVariableName": "emailObj.email"
 						},
 						{
 							"variableTypeCheck": false,
 							"assignmentExpression": "existingAccount",
-							"assignedVariableName": "obj.accountExists"
+							"assignedVariableName": "emailObj.accountExists"
 						}
 					],
 					"nodeIcon": "material-symbols:equal"
@@ -449,7 +629,7 @@
 					"hasComment": true,
 					"comment": "Finish flow unsuccessfully",
 					"flowfilename": "",
-					"returnVariable": "obj",
+					"returnVariable": "emailObj",
 					"finishMode": "withVariable",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
 				},
@@ -494,7 +674,7 @@
 						{
 							"variableTypeCheck": false,
 							"assignmentExpression": "{ success: false, error: \"Unable to deliver e-mail message\" }",
-							"assignedVariableName": "obj"
+							"assignedVariableName": "emailObj"
 						}
 					],
 					"nodeIcon": "material-symbols:equal"
@@ -594,9 +774,9 @@
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "otpCode"
 				},
-				"skake": true
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1042,
@@ -816,7 +996,7 @@
 						{
 							"variableTypeCheck": false,
 							"assignmentExpression": "{}",
-							"assignedVariableName": "obj"
+							"assignedVariableName": "emailObj"
 						},
 						{
 							"variableTypeCheck": false,
@@ -1196,8 +1376,8 @@
 		}
 	],
 	"viewport": {
-		"x": -379,
-		"y": -1,
+		"x": -1426.5375,
+		"y": -136,
 		"zoom": 1
 	}
 }
