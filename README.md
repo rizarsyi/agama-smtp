@@ -16,7 +16,8 @@ To deploy this project we need to meet the requirements.
 1. Running instance of Jans Auth Server.
 2. Configure the SMTP properties of you auth server.
 
-![image](https://github.com/GluuFederation/agama-securitykey/assets/32794267/e60a1371-595d-4968-8cbc-63853cc9d4af)
+![image](https://github.com/duttarnab/agama-smtp/assets/32794267/5b9214b4-f150-41e1-9c82-78be56776770)
+
 
 ### Deployment
 
